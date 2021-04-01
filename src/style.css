@@ -1,0 +1,72 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  text-align: left;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.block-1 {
+  background-color: white;
+  color: hsl(218, 22%, 67%);
+  width: 100vh;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+h3 {
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+/* .all-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+.side-by-side-blocks {
+  display: flex;
+}
+
+.block-2 {
+  width: 50vh;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.block-3 {
+  width: 50vh;
+  background-color: hsl(179, 62%, 43%, 80%);
+  color: white;
+}
+
+#price {
+  font-size: xx-large;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#price-frequency {
+  display: inline-block;
+  opacity: 60%;
+}
+
+#green-undertitle {
+  color: hsl(71, 73%, 54%);
+}
